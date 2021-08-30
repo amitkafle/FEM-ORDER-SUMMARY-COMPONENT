@@ -1,0 +1,214 @@
+*, body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Red Hat Display", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background-image: url(/images/pattern-background-desktop.svg);
+    background-color: hsl(225, 100%, 94%);
+    background-repeat: repeat-x;
+}
+
+.card, .header-image, .summary, .summary-title, .summary-text, .plan-card, .plan-icon, .plan-text-price, .change-plan, .payment-card, .cancel {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.card {
+    width: 440px;
+    min-height: 500px;
+    height: 650px;
+    background-color: white;
+    border-radius: 20px;
+    filter: drop-shadow(0 5px 10px rgba(0, 0, 0, 0.158));
+}
+
+.card .header-image {
+    background-image: url(/images/illustration-hero.svg);
+    background-repeat: no-repeat;
+    border-radius: 20px 20px 0 0;
+    height: auto;
+    width: 100%;
+    bottom: 350px;
+}
+
+.summary {
+    height: 200px;
+    width: 300px;
+}
+
+.summary-title {
+    height: 50px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 1.5rem;
+    bottom: 110px;
+}
+
+.summary-text {
+    text-align: center;
+    height: 100px;
+    width: 300px;
+    color: hsl(224, 23%, 55%);
+    font-size: 16px;
+    top: 40px;
+}
+
+.plan-card {
+    background-color: hsl(225, 100%, 98%);
+    width: 350px;
+    height: 100px;
+    top: 210px;
+    border-radius: 15px;
+}
+
+.plan-icon {
+    display: grid;
+    place-content: center;
+    right: 250px;
+}
+
+.plan-text-price {
+    display: grid;
+    place-content: center;
+    right: 80px;
+    line-height: 25px;
+}
+
+.plan-text {
+    font-weight: 900;
+}
+
+.plan-price {
+    color: hsl(224, 23%, 55%);
+}
+
+.change-plan {
+    font-size: 14px;
+    font-weight: 700;
+    display: grid;
+    place-content: center;
+    left: 250px;
+    z-index: 2;
+    color: hsl(245, 75%, 52%);
+    transition: 0.5s ease-in-out;
+}
+
+.change-plan a:hover {
+    color: hsl(245, 45%, 55%) !important;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+}
+
+.change-plan a:visited {
+    color: hsl(245, 75%, 52%);
+    transition: 0.5s ease-in-out;
+}
+
+.payment-card {
+    display: grid;
+    place-items: center;
+    align-items: end;
+    height: 50px;
+    width: 350px;
+    top: 410px;
+}
+
+.payment-card button {
+    width: 350px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 1rem;
+    color: #fff;
+    background-color: hsl(245, 75%, 52%);
+    font-family: "Red Hat Display", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    z-index: 2;
+    filter: drop-shadow(0 10px 10px rgba(0, 0, 0, 0.158));
+    transition: 0.2s ease-in-out;
+}
+
+.payment-card button:hover {
+    cursor: pointer;
+    z-index: 2;
+    background-color: hsl(245, 45%, 55%);
+    transition: 0.2s ease-in-out;
+}
+
+.cancel {
+    height: 100px;
+    width: 100px;
+    padding: 0;
+    top: 630px;
+    z-index: 2;
+}
+
+.cancel a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    color: hsl(224, 23%, 55%);
+    transition: 0.5s ease-in-out;
+}
+
+.cancel a:hover {
+    color: #000;
+    transition: 0.5s ease-in-out;
+}
+
+/* Display Width 375px - 650px */
+
+@media (max-width: 512px) {
+    .card {
+        width: 340px;
+        min-height: 550px;
+        height: 550px;
+    }
+    .header-image {
+        background-image: url(/images/illustration-hero.svg);
+        background-repeat: none;
+        height: 200px;
+        width: 100%;
+        bottom: 450px;
+        background-size: 350px;
+    }
+    .summary-title {
+        top: 10px;
+    }
+    .summary-text {
+        top: 30px;
+    }
+    .plan-card {
+        width: 300px;
+        height: 80px;
+        top: 170px;
+    }
+    .plan-icon {
+        right: 230px;
+    }
+    .plan-text-price {
+        right: 50px;
+    }
+    .change-plan {
+        font-weight: 900;
+        left: 220px;
+    }
+    .payment-card {
+        width: 300px;
+        top: 350px;
+    }
+    .payment-card button {
+        width: 300px;
+    }
+    .cancel {
+        top: 540px;
+    }
+}
