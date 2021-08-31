@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: url(/images/pattern-background-desktop.svg);
+    background-image: url(./images/pattern-background-desktop.svg);
     background-color: hsl(225, 100%, 94%);
     background-repeat: repeat-x;
 }
@@ -30,7 +30,7 @@ body {
 }
 
 .card .header-image {
-    background-image: url(/images/illustration-hero.svg);
+    background-image: url(./images/illustration-hero.svg);
     background-repeat: no-repeat;
     border-radius: 20px 20px 0 0;
     height: auto;
@@ -173,7 +173,7 @@ body {
         height: 550px;
     }
     .header-image {
-        background-image: url(/images/illustration-hero.svg);
+        background-image: url(./images/illustration-hero.svg);
         background-repeat: none;
         height: 200px;
         width: 100%;
