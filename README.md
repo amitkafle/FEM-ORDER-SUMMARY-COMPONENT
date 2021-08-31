@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://amitkafle.github.io/FEM-order-summary-component/)
+- Solution URL: [Frontend Mentor](https://your-solution-url.com)
+- Live Site URL: [Github Pages](https://amitkafle.github.io/FEM-order-summary-component/)
 
 ## My process
 
