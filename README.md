@@ -28,7 +28,7 @@ Users should be able to:
 ![Mobile](/screenshots/mobile.png)
 
 ### Links
-- Solution URL: [Frontend Mentor](https://your-solution-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/order-summary-component-using-html-and-css-quBpUt8kh#)
 - Live Site URL: [Github Pages](https://amitkafle.github.io/FEM-order-summary-component/)
 
 ## My process
