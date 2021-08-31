@@ -39,7 +39,11 @@ Users should be able to:
 - Google Fonts ('Red Hat Display')
 
 ### What I learned
-- After I finished the project I relaized that I could have structured the html better and use better css techniques to postion and align the content of the card but all I used was absolute positioning which broke the accessibility as well as functionality, there were different layers of `<div>` component all over the card and I had to use `Z-index` property to fix it. The accessibility is still broken but moving forward I will be more thoughtful of it and do better work.
+- After I finished the project I relaized that I could have structured the html better and use better css techniques to postion and align the content of the card but all I used was absolute positioning which broke the functionality, there were different layers of `<div>` component all over the card and I had to use `Z-index` property to fix it. Moving forward I will be more thoughtful of my mistakes and do a better work.
 
 ### Continued development
 - I was able to complete this challenge and made it how it is supposed to look like. However, I wanted to animate the svg of the component-card header and will be working on it soon.
+
+## Author
+- Frontend Mentor - [@amitkafle](https://www.frontendmentor.io/profile/amitkafle)
+- Twitter - [@amitkafle](https://www.twitter.com/amitkafle)
